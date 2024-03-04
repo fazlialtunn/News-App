@@ -44,6 +44,7 @@
 		8B72C7402B9508F30025E928 = {
 			isa = PBXGroup;
 			children = (
+				FBE52C372B95DCB70033CEE4 /* .gitignore */,
 				8B72C74B2B9508F30025E928 /* News App */,
 				8B72C74A2B9508F30025E928 /* Products */,
 			);
@@ -72,7 +73,6 @@
 				8B72C7572B9508F50025E928 /* LaunchScreen.storyboard */,
 				8B72C75A2B9508F50025E928 /* Info.plist */,
 				FBE52C382B95DCB70033CEE4 /* .env */,
-				FBE52C372B95DCB70033CEE4 /* .gitignore */,
 			);
 			path = "News App";
 			sourceTree = "<group>";
