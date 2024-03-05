@@ -7,7 +7,26 @@
 
 import Foundation
 
-struct APICaller {
-    static let baseURL = "https://newsapi.org/v2/top-headlines?country=us&apiKey=6a71b5d53cae4e3eaecee7fc45257d68"
-    var varr = 1
+class APICaller {
+    func fetchData(completion: @escaping((Result<([Article]?), Error>) -> ())) {
+        let url = URL(string: ServiceConstants.serviceEndpoint())
+        print(url)
+        URLSession.shared.dataTask(with: url!) { data, response, error in
+            if let error = error {
+                print(error.localizedDescription)
+                print("error")
+                completion(.failure(error))
+            }
+            
+            if let data = data {
+                print("data")
+                let result = try? JSONDecoder().decode(News.self, from: data)
+                
+                if let result = result {
+                    print("complete success")
+                    completion(.success(result.articles))
+                }
+            }
+        }.resume()
+    }
 }
