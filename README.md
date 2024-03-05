@@ -10,7 +10,7 @@ NewsApp is a Swift application that provides users with the latest news articles
 
 ## Screenshots
 
-!(https://github.com/fazlialtunn/News-App-MVVM/assets/32793348/c0d0d0b1-5a18-4d96-97a4-1ead698c4e37)
+https://github.com/fazlialtunn/News-App-MVVM/assets/32793348/c0d0d0b1-5a18-4d96-97a4-1ead698c4e37
 
 ## Requirements
 
