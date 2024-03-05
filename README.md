@@ -2,11 +2,13 @@
 
 NewsApp is a Swift application that provides users with the latest news articles from various sources around the world. It utilizes the NewsAPI.org API to fetch news data.
 
-## Features
+## Features and Packages
 
 - Browse news articles from different categories such as business, entertainment, health, science, sports, technology, etc.
-- Browse news articles from different countries such as US, Turkey, UK, etc.
 - View detailed information about each news article including its title, description, source, and publication date.
+- MVVM
+- SnapKit
+- SDWebImage
 
 ## Screenshots
 
