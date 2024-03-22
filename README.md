@@ -25,14 +25,14 @@ NewsApp is a Swift application that provides users with the latest news articles
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/NewsApp.git
+git clone https://github.com/fazlialtunn/News-App-MVVM.git
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 cd NewsApp
 
-3. Open `NewsApp.xcodeproj` file with Xcode.
+4. Open `NewsApp.xcodeproj` file with Xcode.
 
-4. Build and run the project on your iOS simulator or physical device.
+5. Build and run the project on your iOS simulator or physical device.
 
 ## Configuration
 
