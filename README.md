@@ -34,10 +34,3 @@ cd NewsApp
 
 5. Build and run the project on your iOS simulator or physical device.
 
-## Configuration
-
-To use NewsAPI.org in your app, you need to obtain an API key:
-
-1. Visit [NewsAPI.org](https://newsapi.org/) and sign up for an account.
-2. Once logged in, you will receive an API key.
-3. Copy your API key and replace `"YOUR_API_KEY"` in the `Constants.swift` file with your actual API key.
