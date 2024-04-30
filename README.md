@@ -20,7 +20,7 @@ NewsApp is a Swift application that provides users with the latest news articles
 - iOS 13.0+
 - Xcode 12.0+
 - Swift 5.0+
-- Swift Package Manager (if you are using any third-party libraries)
+
 
 ## Installation
 
